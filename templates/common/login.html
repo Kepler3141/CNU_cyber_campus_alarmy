@@ -1,22 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
-  <div id="super-div">
-    <div id="top">
-      <span id="logo_name">CNU</span>
-      <span>사이버 캠퍼스 알리미</span>
+    <div id="super-div">
+        <div id="top">
+            <span id="logo_name">CNU</span>
+            <span>사이버 캠퍼스 알리미</span>
+        </div>
+        <div id="img-div">
+            <img src="../../static/images/logo.png" alt="시계">
+        </div>
+        <div id="middle">
+            <form method="post" action="{% url 'common:login' %}">
+                {% csrf_token %}
+                {% include "form_errors.html" %}
+                <input type="text" class="form-control" name="username" id="username"
+                       placeholder="STUDENT NUMBER" value="{{ form.username.value|default_if_none:'' }}">
+                <input type="password" class="form-control" name="password" id="password"
+                       placeholder="PASSWORD" value="{{ form.password.value|default_if_none:'' }}">
+                <button type="submit" class="btn btn-primary" id="login-btn">로그인</button>
+            </form>
+        </div>
+        <div id="bottom">
+            <button id="sign-up-btn">회원가입</button>
+        </div>
     </div>
-    <div id="img-div">
-      <img src="../../static/images/logo.png" alt="시계">
-    </div>
-    <div id="middle">
-      <input type="text" class="form-control" name="username" id="username"
-             placeholder="STUDENT NUMBER" value="{{ form.username.value|default_if_none:'' }}">
-      <input type="password" class="form-control" name="password" id="password"
-             placeholder="PASSWORD" value="{{ form.password.value|default_if_none:'' }}">
-      <button type="submit" class="btn btn-primary" id="login-btn">로그인</button>
-    </div>
-    <div id="bottom">
-      <button id="sign-up-btn">회원가입</button>
-    </div>
-  </div>
 {% endblock %}
