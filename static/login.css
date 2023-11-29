@@ -34,13 +34,13 @@ body{
   align-items: center;
   flex-direction: column;
   width: 80%;
-  height: 250px;
+  height: max-content;
   border-radius: 10%;
   background-color:#E0F4FF;
+  padding: 20px;
 }
 
 #username{
-  margin-top: 20px;
   width: 60%;
   height: 30px;
   background-color: #687EFF;
@@ -72,6 +72,7 @@ input::placeholder {
 }
 
 #bottom{
+  margin-top: 30px;
   width: 80%;
 }
 
@@ -83,4 +84,9 @@ input::placeholder {
   color: #687EFF;
   border-radius: 10px;
   background-color: white;
+}
+
+#sign-up-link{
+  color: #000000;
+  text-decoration-line: none;
 }
