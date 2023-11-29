@@ -9,9 +9,9 @@
       <img src="../../static/images/logo.png" alt="시계">
     </div>
     <div id="middle">
-      <input type="text" placeholder="STUDENT NUMBER" id="id-input" value="{{ form.username.value|default_if_none:'' }}">
-      <input type="password" placeholder="PASSWORD" id="pwd-input" value="{{ form.password.value|default_if_none:'' }}">
-      <button type="submit" id="login-btn">로그인</button>
+      <input type="text" placeholder="STUDENT NUMBER" id="username" value="{{ form.username.value|default_if_none:'' }}">
+      <input type="password" placeholder="PASSWORD" id="password" value="{{ form.password.value|default_if_none:'' }}">
+      <button type="submit" id="login-btn" class="btn btn-primary">로그인</button>
     </div>
     <div id="bottom">
       <button id="sign-up-btn">회원가입</button>

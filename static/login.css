@@ -39,7 +39,7 @@ body{
   background-color:#E0F4FF;
 }
 
-#id-input{
+#username{
   margin-top: 20px;
   width: 60%;
   height: 30px;
@@ -48,7 +48,7 @@ body{
   border-radius: 10px;
 }
 
-#pwd-input{
+#password{
   margin-top: 30px;
   width: 60%;
   height: 30px;
