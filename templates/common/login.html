@@ -1,23 +1,28 @@
-{% extends "base.html" %}
-{% block content %}
-<div class="v2_2">
-    <div class="v130_183">
-        <div class="v130_182"></div>
-        <span class="v2_12">SIGN UP</span></div>
-    <span class="v2_13">CNU 사이버 캠퍼스 알리미</span>
-    <div class="v30_4">
-        <div class="v3_74"></div>
-        <div class="v3_73">
-            <div class="v2_5"></div>
-            <span class="v2_4">STUDENT NUMBER</span></div>
-        <div class="v3_72">
-            <div class="v3_19"></div>
-            <span class="v2_8">PASSWORD</span></div>
-        <div class="v5_3">
-            <div class="v3_18"></div>
-            <span class="v3_17">LOG IN</span></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/login.css">
+  <title>정형민 개멍청함</title>
+</head>
+<body>
+  <div id="super-div">
+    <div id="top">
+      <span id="logo_name">CNU</span>
+      <span>사이버 캠퍼스 알리미</span>
     </div>
-    <div class="v20_64"></div>
-    <div class="v130_83"></div>
-</div>
-{% endblock %}
+    <div id="img-div">
+      <img src="../image/logo.png" alt="시계">
+    </div>
+    <div id="middle">
+      <input type="text" placeholder="STUDENT NUMBER" id="id-input">
+      <input type="password" placeholder="PASSWORD" id="pwd-input">
+      <button id="login-btn">로그인</button>
+    </div>
+    <div id="bottom">
+      <button id="sign-up-btn">회원가입</button>
+    </div>
+  </div>
+</body>
+</html>
