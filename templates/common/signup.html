@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="super-div">
+        <div id="top-bar">
+            <img src="../../static/images/small-logo.png" id="small-logo">
+            <span id="bar-logo_name">CNU</span>
+            <span>사이버 캠퍼스 알리미</span>
+        </div>
+        <div id="top1">
+            <span>회원가입</span>
+            <div id="info">
+                <span>사이버 캠퍼스와 동일한 정보로 작성해 주세요</span>
+            </div>
+        </div>
+        <div id="middle1">
+            <input type="text" class="form-control" name="username" id="username"
+                       placeholder="STUDENT NUMBER" value="{{ form.username.value|default_if_none:'' }}">
+            <input type="password" class="form-control" name="password" id="password"
+                       placeholder="PASSWORD" value="{{ form.password.value|default_if_none:'' }}">
+            <input class="form-control" name="phonenum" id="phonenum"
+                       placeholder="PHONE NUMBER">
+            <button type="submit" class="btn btn-primary" id="sign-up-btn">회원가입</button>
+        </div>
+        <div id="bottom">
+
+        </div>
+    </div>
+{% endblock %}
