@@ -18,7 +18,7 @@
                 {% include "form_errors.html" %}
                 <input type="text" class="form-control" name="username" id="username"
                        placeholder="STUDENT NUMBER" value="{{ form.username.value|default_if_none:'' }}">
-                <input type="password" class="form-control" name="password1" id="password"
+                <input type="password" class="form-control" name="password" id="password"
                        placeholder="PASSWORD" value="{{ form.password1.value|default_if_none:'' }}">
                 <input class="form-control" name="phonenum" id="phonenum"
                        placeholder="PHONE NUMBER">
