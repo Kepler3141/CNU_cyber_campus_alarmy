@@ -1,8 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
-html { font-family: 'Pretendard'}
-
 body{
+  font-family: 'Pretendard', serif
   width: 100%;
   height: 100%;
   box-sizing: border-box;
