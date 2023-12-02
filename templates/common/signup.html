@@ -20,8 +20,6 @@
                        placeholder="STUDENT NUMBER" value="{{ form.username.value|default_if_none:'' }}">
                 <input type="password" class="form-control" name="password1" id="password"
                        placeholder="PASSWORD" value="{{ form.password1.value|default_if_none:'' }}">
-                <input type="password" class="form-control" name="password2" id="password"
-                       placeholder="PASSWORD" value="{{ form.password2.value|default_if_none:'' }}">
                 <input type="text" class="form-control" name="email" id="password"
                        placeholder="e-mail" value="{{ form.email.value|default_if_none:'' }}">
                 <button type="submit" class="btn btn-primary" id="sign-up-btn">회원가입</button>
