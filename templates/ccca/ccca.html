@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VSC</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+{% extends "base.html" %}
+{% block content %}
     <div id="superdiv">
       <div id="top">
-        <img id="small-logo" src="small-logo.png"/>
+        <img id="small-logo" src="../../static/images/small-logo.png"/>
         <div id="line"></div>
         <span id="cnu">CNU</span>
         <span id="title">사이버 캠퍼스 알리미</span>
@@ -79,5 +72,4 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
+{% endblock %}
