@@ -3,9 +3,9 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
 
-class UserForm(forms.ModelForm):
-    # email = forms.EmailField(label="이메일")
+class UserForm(UserCreationForm):
+    email = forms.EmailField(label="이메일")
 
     class Meta:
         model = User
-        fields = ("username", "password")
+        fields = ("username", "password1", "password2", "email")
