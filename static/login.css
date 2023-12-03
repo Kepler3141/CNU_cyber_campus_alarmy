@@ -137,12 +137,3 @@ input::placeholder {
   font-size: 15px;
   font-weight: normal;
 }
-
-#phonenum{
-  margin-top: 20px;
-  width: 80%;
-  height: 30px;
-  background-color: #687EFF;
-  color: white;
-  border-radius: 10px;
-}
