@@ -74,7 +74,6 @@ body{
 input::placeholder {
   color: white;
   text-align: center;
-  font-weight: bold;
 }
 
 #login-btn{
@@ -85,6 +84,7 @@ input::placeholder {
   color: #687EFF;
   border-radius: 10px;
   background-color: white;
+  font-weight: bold;
 }
 
 #bottom{
