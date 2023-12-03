@@ -61,6 +61,15 @@ body{
   border-radius: 10px;
 }
 
+#email{
+  margin-top: 20px;
+  width: 80%;
+  height: 30px;
+  background-color: #687EFF;
+  color: white;
+  border-radius: 10px;
+}
+
 input::placeholder {
   color: white;
   text-align: center;
