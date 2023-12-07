@@ -6,6 +6,7 @@ from common.forms import UserForm
 def signup(request):
     if request.method == "POST":
         form = UserForm(request.POST)
+        print(request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
