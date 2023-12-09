@@ -7,8 +7,9 @@ def signup(request):
     if request.method == "POST":
         form = UserForm(request.POST)
         print(request.POST.get("username"))
-        print(request.POST.get("password1"))
+        print(request.POST.get("password"))
         print(request.POST.get("email"))
+        form.save()
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')

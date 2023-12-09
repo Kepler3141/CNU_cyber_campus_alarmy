@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a35ed14-7696-4665-b686-93bf07316a5e" name="Changes" comment="FEAT: Test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kepler3141&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="681a499e-f99a-4128-83e2-58ec22c263b9" />
+        <option name="url" value="https://github.com/Kepler3141/CNU_cyber_campus_alarmy.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YRxB6pnfzvFxW1lcJZxuEN7b3B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/projects/CNU_cyber_campus_alarmy/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\static" />
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\templates\ccca" />
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\static\images" />
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\templates\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\templates\common" />
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\static\images" />
+      <recent name="C:\projects\CNU_cyber_campus_alarmy\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CNU_cyber_campus_alarmy" type="Python.DjangoServer" factoryName="Django server">
+      <module name="CNU_cyber_campus_alarmy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="config.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a35ed14-7696-4665-b686-93bf07316a5e" name="Changes" comment="" />
+      <created>1700502055312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700502055312</updated>
+      <workItem from="1700502056355" duration="6242000" />
+      <workItem from="1700547689970" duration="15231000" />
+      <workItem from="1700672381079" duration="65000" />
+      <workItem from="1701279251963" duration="202000" />
+      <workItem from="1701283339546" duration="12918000" />
+      <workItem from="1701520258760" duration="27948000" />
+      <workItem from="1701657929299" duration="5713000" />
+      <workItem from="1701676845575" duration="912000" />
+      <workItem from="1701699893117" duration="662000" />
+      <workItem from="1701861327282" duration="26317000" />
+      <workItem from="1702036836401" duration="1255000" />
+      <workItem from="1702106079036" duration="8057000" />
+    </task>
+    <task id="LOCAL-00052" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701536226963</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1701536226963</updated>
+    </task>
+    <task id="LOCAL-00053" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701536266428</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1701536266428</updated>
+    </task>
+    <task id="LOCAL-00054" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701571175913</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1701571175913</updated>
+    </task>
+    <task id="LOCAL-00055" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701573516775</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1701573516775</updated>
+    </task>
+    <task id="LOCAL-00056" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701573653335</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1701573653335</updated>
+    </task>
+    <task id="LOCAL-00057" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701573789879</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1701573789879</updated>
+    </task>
+    <task id="LOCAL-00058" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701573932472</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1701573932472</updated>
+    </task>
+    <task id="LOCAL-00059" summary="FEAT: Change signup">
+      <option name="closed" value="true" />
+      <created>1701614678357</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1701614678357</updated>
+    </task>
+    <task id="LOCAL-00060" summary="FEAT: Change signup">
+      <option name="closed" value="true" />
+      <created>1701615256158</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1701615256158</updated>
+    </task>
+    <task id="LOCAL-00061" summary="FEAT: Change signup">
+      <option name="closed" value="true" />
+      <created>1701615711554</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1701615711554</updated>
+    </task>
+    <task id="LOCAL-00062" summary="FEAT: Change signup">
+      <option name="closed" value="true" />
+      <created>1701615760626</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1701615760626</updated>
+    </task>
+    <task id="LOCAL-00063" summary="FEAT: Change signup">
+      <option name="closed" value="true" />
+      <created>1701615883542</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1701615883542</updated>
+    </task>
+    <task id="LOCAL-00064" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701627739823</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1701627739823</updated>
+    </task>
+    <task id="LOCAL-00065" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701627783382</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1701627783382</updated>
+    </task>
+    <task id="LOCAL-00066" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701627830678</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1701627830678</updated>
+    </task>
+    <task id="LOCAL-00067" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701628051325</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1701628051325</updated>
+    </task>
+    <task id="LOCAL-00068" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701628119618</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1701628119618</updated>
+    </task>
+    <task id="LOCAL-00069" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701628155427</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1701628155427</updated>
+    </task>
+    <task id="LOCAL-00070" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701629144177</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1701629144177</updated>
+    </task>
+    <task id="LOCAL-00071" summary="FEAT: Change css">
+      <option name="closed" value="true" />
+      <created>1701629173372</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1701629173372</updated>
+    </task>
+    <task id="LOCAL-00072" summary="DOCS: Move file">
+      <option name="closed" value="true" />
+      <created>1701658406938</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1701658406939</updated>
+    </task>
+    <task id="LOCAL-00073" summary="FEAT: Change url">
+      <option name="closed" value="true" />
+      <created>1701659756996</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1701659756996</updated>
+    </task>
+    <task id="LOCAL-00074" summary="FEAT: Create main css">
+      <option name="closed" value="true" />
+      <created>1701664569443</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1701664569443</updated>
+    </task>
+    <task id="LOCAL-00075" summary="FEAT: Fix">
+      <option name="closed" value="true" />
+      <created>1701664746637</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1701664746637</updated>
+    </task>
+    <task id="LOCAL-00076" summary="FEAT: Delete hash">
+      <option name="closed" value="true" />
+      <created>1701872552981</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1701872552981</updated>
+    </task>
+    <task id="LOCAL-00077" summary="FEAT: Undo">
+      <option name="closed" value="true" />
+      <created>1701873034294</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1701873034294</updated>
+    </task>
+    <task id="LOCAL-00078" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701874271272</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1701874271272</updated>
+    </task>
+    <task id="LOCAL-00079" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701874478325</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1701874478325</updated>
+    </task>
+    <task id="LOCAL-00080" summary="FEAT: Undo">
+      <option name="closed" value="true" />
+      <created>1701875323013</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1701875323013</updated>
+    </task>
+    <task id="LOCAL-00081" summary="FEAT: Make new model">
+      <option name="closed" value="true" />
+      <created>1701876808708</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1701876808708</updated>
+    </task>
+    <task id="LOCAL-00082" summary="FEAT: Undo">
+      <option name="closed" value="true" />
+      <created>1701877706437</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1701877706437</updated>
+    </task>
+    <task id="LOCAL-00083" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701881041184</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1701881041184</updated>
+    </task>
+    <task id="LOCAL-00084" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701881155472</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1701881155472</updated>
+    </task>
+    <task id="LOCAL-00085" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701882521731</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1701882521731</updated>
+    </task>
+    <task id="LOCAL-00086" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701882861782</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1701882861782</updated>
+    </task>
+    <task id="LOCAL-00087" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701883209636</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1701883209636</updated>
+    </task>
+    <task id="LOCAL-00088" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701883300494</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1701883300494</updated>
+    </task>
+    <task id="LOCAL-00089" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701884090703</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1701884090703</updated>
+    </task>
+    <task id="LOCAL-00090" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701884128810</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1701884128810</updated>
+    </task>
+    <task id="LOCAL-00091" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701885255168</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885255168</updated>
+    </task>
+    <task id="LOCAL-00092" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701885360803</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885360803</updated>
+    </task>
+    <task id="LOCAL-00093" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701885550409</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885550409</updated>
+    </task>
+    <task id="LOCAL-00094" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701885710004</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885710004</updated>
+    </task>
+    <task id="LOCAL-00095" summary="FEAT: Change password algorithm">
+      <option name="closed" value="true" />
+      <created>1701885751478</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1701885751478</updated>
+    </task>
+    <task id="LOCAL-00096" summary="FEAT: Create category">
+      <option name="closed" value="true" />
+      <created>1701915093215</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915093215</updated>
+    </task>
+    <task id="LOCAL-00097" summary="FEAT: Create category">
+      <option name="closed" value="true" />
+      <created>1701915275035</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915275035</updated>
+    </task>
+    <task id="LOCAL-00098" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702149450127</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1702149450127</updated>
+    </task>
+    <task id="LOCAL-00099" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702149536759</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1702149536759</updated>
+    </task>
+    <task id="LOCAL-00100" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702149631695</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1702149631695</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FEAT: Create login page" />
+    <MESSAGE value="FEAT: Delete trash image" />
+    <MESSAGE value="FEAT: Change login page" />
+    <MESSAGE value="FEAT: Create sign up page" />
+    <MESSAGE value="DOCS: Create gitignore" />
+    <MESSAGE value="DOCS: Add gitignore" />
+    <MESSAGE value="FEAT: Change sign up page" />
+    <MESSAGE value="FEAT: Create ccca page" />
+    <MESSAGE value="STYLE: Syntax error" />
+    <MESSAGE value="FEAT: Change ccca page" />
+    <MESSAGE value="FEAT: Clone signin func jump to django" />
+    <MESSAGE value="FEAT: Change login" />
+    <MESSAGE value="FEAT: Change font" />
+    <MESSAGE value="FEAT: Change signup" />
+    <MESSAGE value="FEAT: Change css" />
+    <MESSAGE value="DOCS: Move file" />
+    <MESSAGE value="FEAT: Change url" />
+    <MESSAGE value="FEAT: Create main css" />
+    <MESSAGE value="FEAT: Fix" />
+    <MESSAGE value="FEAT: Delete hash" />
+    <MESSAGE value="FEAT: Make new model" />
+    <MESSAGE value="FEAT: Undo" />
+    <MESSAGE value="FEAT: Change password algorithm" />
+    <MESSAGE value="FEAT: Create category" />
+    <MESSAGE value="FEAT: Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT: Test" />
+  </component>
+</project>
