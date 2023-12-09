@@ -1,7 +1,8 @@
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
 from common.forms import UserForm
-import db
+import common.db
+import pandas as pd
 
 
 def signup(request):
@@ -14,8 +15,8 @@ def signup(request):
                                  'password': request.POST.get("password1"),
                                  'email': request.POST.get("email"),
                                  'data': ['']})
-        db.dataBase.append(new_data)
-        print(db.dataBase)
+        common.db.dataBase.append(new_data)
+        print(common.db.dataBase)
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
