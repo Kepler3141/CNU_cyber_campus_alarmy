@@ -15,7 +15,7 @@ def signup(request):
                                  'password': request.POST.get("password1"),
                                  'email': request.POST.get("email"),
                                  'data': ['']})
-        common.db.dataBase.append(new_data)
+        pd.concat([common.db.dataBase, new_data])
         print(common.db.dataBase)
         if form.is_valid():
             form.save()

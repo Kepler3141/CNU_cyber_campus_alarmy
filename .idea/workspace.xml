@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a35ed14-7696-4665-b686-93bf07316a5e" name="Changes" comment="FEAT: Test">
-      <change afterPath="$PROJECT_DIR$/common/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="8a35ed14-7696-4665-b686-93bf07316a5e" name="Changes" comment="FEAT: Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,23 +122,7 @@
       <workItem from="1701699893117" duration="662000" />
       <workItem from="1701861327282" duration="26317000" />
       <workItem from="1702036836401" duration="1255000" />
-      <workItem from="1702106079036" duration="10794000" />
-    </task>
-    <task id="LOCAL-00054" summary="FEAT: Change css">
-      <option name="closed" value="true" />
-      <created>1701571175913</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1701571175913</updated>
-    </task>
-    <task id="LOCAL-00055" summary="FEAT: Change css">
-      <option name="closed" value="true" />
-      <created>1701573516775</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1701573516775</updated>
+      <workItem from="1702106079036" duration="11180000" />
     </task>
     <task id="LOCAL-00056" summary="FEAT: Change css">
       <option name="closed" value="true" />
@@ -520,7 +500,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702152794026</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702156362575</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1702156362575</updated>
+    </task>
+    <task id="LOCAL-00104" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702156423959</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1702156423960</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
