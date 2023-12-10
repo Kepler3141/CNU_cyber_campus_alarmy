@@ -31,4 +31,11 @@ def signup(request):
 
 
 def login(request):
-    print(request.POST)
+    if request.method == "POST":
+        #form = LoginForm(request.POST)
+        print(request.POST)
+    else:
+        #form = LoginForm()
+        pass
+
+    return render(request, 'common/login.html', {'form': form})
