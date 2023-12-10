@@ -1,6 +1,7 @@
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate
 from django.shortcuts import render, redirect
 from common.forms import UserForm
+
 import common.db
 import pandas as pd
 
@@ -27,3 +28,7 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'common/signup.html', {'form': form})
+
+
+def login(request):
+    print(request.POST)
