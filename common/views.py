@@ -32,16 +32,20 @@ def signup(request):
 
 
 def login(request):
-    print('test1')
     if request.method == 'GET':
-        print('test2')
         form = LoginForm()
         return render(request, 'common/login.html', {'form': form})
 
     elif request.method == "POST":
-        print('test3')
         form = LoginForm(request.POST)
-        print(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+            print(username, password)
+            user = authenticate(request, username=username, password=password)
+            if user:
+                login(request, user)
+                return redirect('ccca:main')
     else:
         form = LoginForm()
         pass
