@@ -40,7 +40,7 @@ def login(request):
         form = LoginForm(request.POST)
         if form.is_valid():
             username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
+            password = form.cleaned_data['password1']
             print(username, password)
             user = authenticate(request, username=username, password=password)
             if user:
