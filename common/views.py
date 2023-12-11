@@ -31,7 +31,6 @@ def signup(request):
 
 
 def login(request, user):
-    print("test")
     if request.method == "POST":
         #form = LoginForm(request.POST)
         print(request)
