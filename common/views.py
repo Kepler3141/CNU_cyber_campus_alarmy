@@ -41,11 +41,13 @@ def login(request):
     elif request.method == "POST":
         print(3)
         form = LoginForm(request.POST)
-        print(request.POST)
+        username = form.cleaned_data['username']
+        password = form.cleaned_data['password']
+        print(username, password)
         if form.is_valid():
             print(4)
             username = form.cleaned_data['username']
-            password = form.cleaned_data['password1']
+            password = form.cleaned_data['password']
             print(username, password)
             user = authenticate(request, username=username, password=password)
             if user:
