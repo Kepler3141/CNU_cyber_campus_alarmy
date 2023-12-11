@@ -31,9 +31,9 @@ def signup(request):
 
 
 def login(request, user):
-    if request.method == "POST":
+    if request.method == "GET":
         #form = LoginForm(request.POST)
-        print(request.POST.get("username"))
+        print(request)
     else:
         #form = LoginForm()
         pass
