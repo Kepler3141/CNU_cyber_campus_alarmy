@@ -41,6 +41,7 @@ def login(request):
     elif request.method == "POST":
         print(3)
         form = LoginForm(request.POST)
+        print(request.POST)
         if form.is_valid():
             print(4)
             username = form.cleaned_data['username']
