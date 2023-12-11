@@ -32,18 +32,14 @@ def signup(request):
 
 
 def login(request):
-    print(1)
     if request.method == 'GET':
-        print(2)
         form = LoginForm()
         return render(request, 'common/login.html', {'form': form})
 
     elif request.method == "POST":
-        print(3)
         form = LoginForm(request.POST)
-        username = form.cleaned_data['username']
-        password = form.cleaned_data['password']
-        print(username, password)
+        print(request.POST.get("username"))
+        print(request.POST.get("password"))
         if form.is_valid():
             print(4)
             username = form.cleaned_data['username']
