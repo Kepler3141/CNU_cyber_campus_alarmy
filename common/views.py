@@ -40,10 +40,10 @@ def login(request):
 
     elif request.method == "POST":
         print('test3')
-        #form = LoginForm(request.POST)
-        print(request)
+        form = LoginForm(request.POST)
+        print(request.POST)
     else:
-        #form = LoginForm()
+        form = LoginForm()
         pass
 
     return render(request, 'common/login.html', {'form': form})
