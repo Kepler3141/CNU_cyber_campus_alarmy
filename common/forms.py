@@ -10,8 +10,3 @@ class UserForm(UserCreationForm):
     class Meta:
         model = User
         fields = ("username", "password1", "email")
-
-
-class LoginForm(forms.Form):
-    username = forms.CharField(max_length=65)
-    password1 = forms.CharField(max_length=65, widget=forms.PasswordInput)

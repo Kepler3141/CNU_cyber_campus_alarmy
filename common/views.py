@@ -1,8 +1,7 @@
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
 from common.forms import UserForm
 
-from .forms import LoginForm
 import common.db
 import pandas as pd
 
@@ -31,26 +30,26 @@ def signup(request):
     return render(request, 'common/signup.html', {'form': form})
 
 
-def login(request):
-    if request.method == 'GET':
-        form = LoginForm()
-        return render(request, 'common/login.html', {'form': form})
-
-    elif request.method == "POST":
-        form = LoginForm(request.POST)
-        print(request.POST.get("username"))
-        print(request.POST.get("password"))
-        if form.is_valid():
-            print(4)
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
-            print(username, password)
-            user = authenticate(request, username=username, password=password)
-            if user:
-                login(request, user)
-                return redirect('ccca:main')
-    else:
-        form = LoginForm()
-        pass
-
-    return render(request, 'common/login.html', {'form': form})
+# def login(request):
+#     if request.method == 'GET':
+#         form = LoginForm()
+#         return render(request, 'common/login.html', {'form': form})
+#
+#     elif request.method == "POST":
+#         form = LoginForm(request.POST)
+#         username = request.POST.get("username")
+#         password = request.POST.get("password")
+#         if form.is_valid():
+#             print(4)
+#             username = form.cleaned_data['username']
+#             password = form.cleaned_data['password']
+#             print(username, password)
+#             user = authenticate(request, username=username, password=password)
+#             if user:
+#                 login(request, user)
+#                 return redirect('ccca:main')
+#     else:
+#         form = LoginForm()
+#         pass
+#
+#     return render(request, 'common/login.html', {'form': form})
