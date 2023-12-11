@@ -2,6 +2,7 @@ from django.contrib.auth import authenticate
 from django.shortcuts import render, redirect
 from common.forms import UserForm
 
+from .forms import LoginForm
 import common.db
 import pandas as pd
 
@@ -31,6 +32,10 @@ def signup(request):
 
 
 def login(request):
+    if request.method == 'GET':
+        form = LoginForm()
+        return render(request, 'common/login.html', {'form': form})
+
     if request.method == "POST":
         #form = LoginForm(request.POST)
         print(request)
