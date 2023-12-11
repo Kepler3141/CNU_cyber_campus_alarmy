@@ -31,7 +31,7 @@ def signup(request):
 
 
 def login(request, user):
-    if request.method == "GET":
+    if request.method == "PSOT":
         #form = LoginForm(request.POST)
         print(request)
     else:
