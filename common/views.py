@@ -32,11 +32,14 @@ def signup(request):
 
 
 def login(request):
+    print('test1')
     if request.method == 'GET':
+        print('test2')
         form = LoginForm()
         return render(request, 'common/login.html', {'form': form})
 
-    if request.method == "POST":
+    elif request.method == "POST":
+        print('test3')
         #form = LoginForm(request.POST)
         print(request)
     else:
