@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a35ed14-7696-4665-b686-93bf07316a5e" name="Changes" comment="FEAT: Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,31 +126,7 @@
       <workItem from="1702036836401" duration="1255000" />
       <workItem from="1702106079036" duration="12284000" />
       <workItem from="1702181267169" duration="8064000" />
-      <workItem from="1702255679261" duration="1899000" />
-    </task>
-    <task id="LOCAL-00063" summary="FEAT: Change signup">
-      <option name="closed" value="true" />
-      <created>1701615883542</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1701615883542</updated>
-    </task>
-    <task id="LOCAL-00064" summary="FEAT: Change css">
-      <option name="closed" value="true" />
-      <created>1701627739823</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1701627739823</updated>
-    </task>
-    <task id="LOCAL-00065" summary="FEAT: Change css">
-      <option name="closed" value="true" />
-      <created>1701627783382</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1701627783382</updated>
+      <workItem from="1702255679261" duration="2413000" />
     </task>
     <task id="LOCAL-00066" summary="FEAT: Change css">
       <option name="closed" value="true" />
@@ -521,7 +496,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702287156862</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702287206474</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287206474</updated>
+    </task>
+    <task id="LOCAL-00113" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702287256513</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287256513</updated>
+    </task>
+    <task id="LOCAL-00114" summary="FEAT: Test">
+      <option name="closed" value="true" />
+      <created>1702287275549</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287275549</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -30,7 +30,7 @@ def signup(request):
     return render(request, 'common/signup.html', {'form': form})
 
 
-def login(request, user):
+def login(request):
     if request.method == "POST":
         #form = LoginForm(request.POST)
         print(request)
