@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_crontab',
-    'scraping.tasks'
 ]
 
 MIDDLEWARE = [
@@ -132,5 +131,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/ccca/main'
 
 CRONJOBS = [
-    ('*/1 * * * *', 'scraping/tasks/test'),
+    ('*/1 * * * *', 'scraping.tasks.test'),
 ]
