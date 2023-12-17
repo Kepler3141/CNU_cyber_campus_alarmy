@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 
 def main(request):
+    testdata = '5'
     return render(request, 'ccca/main.html')
 
 
