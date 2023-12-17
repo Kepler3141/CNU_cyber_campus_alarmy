@@ -5,4 +5,4 @@ import time
 
 def test():
     now = time
-    #  db.dataBase['data'] = now.strftime('%Y-%m-%d %H:%M:%S')
+    db.dataBase['data'] = now.strftime('%Y-%m-%d %H:%M:%S')
