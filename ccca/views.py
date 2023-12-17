@@ -39,9 +39,9 @@ def main(request):
     driver.find_element(By.XPATH, '//*[@id="drawUniv_list"]/li[4]/a/span[2]').click()
     time.sleep(3)
     driver.find_element(By.XPATH, '//*[@id="wrapper"]/div[2]/div/div/div[3]/div/form/div/div[2]/input[1]').send_keys(
-        f.readline()[:-1])
+        input('id'))
     driver.find_element(By.XPATH, '//*[@id="wrapper"]/div[2]/div/div/div[3]/div/form/div/div[2]/input[2]').send_keys(
-        f.readline())
+        input('pw'))
     driver.find_element(By.XPATH, '//*[@id="wrapper"]/div[2]/div/div/div[3]/div/form/div/div[2]/button').click()
     time.sleep(20)
     # 로그인 완료
