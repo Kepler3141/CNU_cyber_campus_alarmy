@@ -3,7 +3,8 @@ import common.db as db
 import time
 
 
-def test():
+while True:
     now = time
     df = db.dataBase
-    df.loc[df['studentNumber'] == 'admin', 'data'] = 5#now.strftime('%Y-%m-%d %H:%M:%S')
+    df.loc[df['studentNumber'] == 'admin', 'data'] = now.strftime('%Y-%m-%d %H:%M:%S')
+    time.sleep(60)

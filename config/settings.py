@@ -130,6 +130,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 로그인 성공후 이동하는 URL
 LOGIN_REDIRECT_URL = '/ccca/main'
 
-CRONJOBS = [
-    ('*/1 * * * *', 'scraping.tasks.test'),
-]
+# CRONJOBS = [
+#     ('*/1 * * * *', 'scraping.tasks.test'),
+# ]
