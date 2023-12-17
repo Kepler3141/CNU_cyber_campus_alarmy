@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 
 def main(request):
-    return render(request, 'ccca/main.html', {'testdata': testdata})
+    return render(request, 'ccca/main.html')
 
 
 def notifications(request):
