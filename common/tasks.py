@@ -1,5 +1,5 @@
 import selenium
-import common.db as db
+import db
 import time
 
 
