@@ -4,4 +4,5 @@ import time
 
 
 def test():
-    db.dataBase['data'] = time.localtime().tm_min
+    now = time
+    db.dataBase['data'] = now.strftime('%Y-%m-%d %H:%M:%S')
