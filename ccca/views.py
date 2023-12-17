@@ -7,7 +7,7 @@ import common.db as db
 
 
 def main(request):
-    testdata = db.dataBase['data']
+    testdata = str(db.dataBase['data'])
     return render(request, 'ccca/main.html', {'testdata': testdata})
 
 
