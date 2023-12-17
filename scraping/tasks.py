@@ -1,6 +1,7 @@
 import selenium
-import common.db
+import common.db as db
+import time
 
 
 def test():
-    print('hello')
+    db.dataBase['data'] = time.localtime().tm_min
